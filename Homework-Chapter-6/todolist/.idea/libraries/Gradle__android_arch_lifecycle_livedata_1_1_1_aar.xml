@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: android.arch.lifecycle:livedata:1.1.1@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../ASProjects/GradleResource/gradle-5.1.1/caches/transforms-2/files-2.1/42277a4adbc70df6b55e7dcc7f1aa172/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../ASProjects/GradleResource/gradle-5.1.1/caches/transforms-2/files-2.1/42277a4adbc70df6b55e7dcc7f1aa172/res" />
+      <root url="file://$PROJECT_DIR$/../../../ASProjects/GradleResource/gradle-5.1.1/caches/transforms-2/files-2.1/42277a4adbc70df6b55e7dcc7f1aa172/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ae9166ec3f4230fbcf1d900efceb18be/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ae9166ec3f4230fbcf1d900efceb18be/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ae9166ec3f4230fbcf1d900efceb18be/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../ASProjects/GradleResource/gradle-5.1.1/caches/modules-2/files-2.1/android.arch.lifecycle/livedata/1.1.1/bf27acaa4953c98cd519756ed7b7caacf94407d4/livedata-1.1.1-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/livedata/1.1.1/bf27acaa4953c98cd519756ed7b7caacf94407d4/livedata-1.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
