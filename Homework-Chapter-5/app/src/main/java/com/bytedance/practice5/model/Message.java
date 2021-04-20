@@ -18,6 +18,8 @@ public class Message {
     private String content;
     @SerializedName("image_url")
     private String imageUrl;
+    @SerializedName("video_url")
+    private String videoUrl;
     @SerializedName("image_w")
     private int imageW;
     @SerializedName("image_h")
@@ -66,6 +68,13 @@ public class Message {
     }
     public String getImageUrl() {
         return imageUrl;
+    }
+
+    public void setVedioUrl(String videoUrl) {
+        this.videoUrl = videoUrl;
+    }
+    public String getVedioUrl() {
+        return videoUrl;
     }
 
     public void setImageW(int imageW) {

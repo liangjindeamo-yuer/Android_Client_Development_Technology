@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\courseware\\android\\chapter-7-master\\AndroidStudy\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-vi\\values-vi.xml",
+            "outputFile": "D:\\new_android\\Homework-Chapter-7\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-vi\\values-vi.xml",
             "map": [
                 {
                     "source": "C:\\Users\\莨瑾\\.gradle\\caches\\transforms-2\\files-2.1\\a478bb84292d9a93d1c88d125290cf27\\res\\values-vi\\values-vi.xml",

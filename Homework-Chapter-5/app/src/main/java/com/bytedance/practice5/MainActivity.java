@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
     // 用HttpUrlConnection实现获取留言列表数据，用Gson解析数据，更新UI（调用adapter.setData()方法）
     // 注意网络请求和UI更新分别应该放在哪个线程中
     public List<Message> baseGetReposFromRemote(String studentId, int page, int perPage, String accept) {
-        String urlStr = Constants.BASE_URL + "/messages"+"?student_id="+studentId;
+        String urlStr = Constants.BASE_URL + "/video"+"?student_id="+studentId;
         MessageListResponse result = null;
         try {
             URL url = new URL(urlStr);
@@ -95,7 +95,6 @@ public class MainActivity extends AppCompatActivity {
                 in.close();
             }
             conn.disconnect();
-
         } catch (Exception e) {
             e.printStackTrace();
             Toast.makeText(this, "网络异常" + e.toString(), Toast.LENGTH_SHORT).show();
@@ -116,7 +115,6 @@ public class MainActivity extends AppCompatActivity {
                             adapter.setData(result);
                         }
                     });
-
                 }
             }
         }).start();

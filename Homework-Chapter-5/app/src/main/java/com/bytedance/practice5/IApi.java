@@ -19,7 +19,7 @@ public interface IApi {
     //TODO 4
     // 补全所有注解
     @Multipart
-    @POST("messages")
+    @POST("video")
     Call<UploadResponse> submitMessage(@Query("student_id")  String studentId,
                                        @Query("extra_value") String extraValue,
                                        @Part MultipartBody.Part from,
